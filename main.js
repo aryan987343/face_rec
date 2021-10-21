@@ -17,7 +17,7 @@ function photo_1() {
 
 console.log(ml5.version);
 
-classy = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/I0Mp2n1TD/.json" ,load_it);
+classy = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/I0Mp2n1TD/model.json" ,load_it);
 
 function load_it() {
     console.log("model_loaded");
